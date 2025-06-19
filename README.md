@@ -56,22 +56,14 @@ The application is built using **Kotlin** for Android development and leverages 
 
 ## 5. Screenshots
 
-**Main Screen:**
-20250619_110139.png
-*(Replace `path/to/your/main_screen_screenshot.png` with the actual path to your screenshot.)*
+**Main Screen:
+
 
 **Detailed View Screen:**
 
-*(Replace `path/to/your/detailed_view_screen_screenshot.png` with the actual path to your screenshot.)*
 
-**Source Code Structure:**
-*(You can include a screenshot of your project structure in Android Studio or a partial view of a significant Kotlin file.)*
-![Screenshot of Source Code](path/to/your/source_code_screenshot.png)
-*(Replace `path/to/your/source_code_screenshot.png` with the actual path to your screenshot, e.g., showing `MainActivity.kt` or the overall project tree.)*
 
-## 6. Source Code
 
-The complete source code for this project is available on GitHub:
 
 **[Your GitHub Repository URL Here]**
 *(Replace `[Your GitHub Repository URL Here]` with the actual URL to your GitHub repository.)*
