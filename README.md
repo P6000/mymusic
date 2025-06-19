@@ -25,7 +25,7 @@ The application implements the following core functionalities:
 
  3. Technical Details
 
-The application is built using **Kotlin** for Android development and leverages Android Studio's standard tools and libraries.
+The application is built using Kotlin for Android development and leverages Android Studio's standard tools and libraries.
 
 *Programming Language: Kotlin
 *Android SDK: (Mention your `minSdk` and `targetSdk` from `build.gradle` here, e.g., `minSdk 24`, `targetSdk 34`)
@@ -37,50 +37,45 @@ The application is built using **Kotlin** for Android development and leverages 
 
 4. How to Run the App
 
-1. **Prerequisites:**
+1. Prerequisites:
     * Android Studio (Flamingo or newer recommended)
     * Kotlin Plugin for Android Studio
     * An Android device or emulator running Android API (mention your `minSdk` here, e.g., 24) or higher.
-2. **Clone the Repository:
+2. Clone the Repository:
     ```bash
     cd MusicPlaylistManagerApp
     ```
-3. **Open in Android Studio:**
+3. Open in Android Studio:
     * Launch Android Studio.
     * Select "Open an existing Android Studio project" and navigate to the cloned `MusicPlaylistManagerApp` directory.
-4. **Sync Gradle:**
+4. Sync Gradle:
     * Android Studio should automatically sync the project. If not, click "Sync Project with Gradle Files" (elephant icon in the toolbar).
-5. **Run on Device/Emulator:**
+5. Run on Device/Emulator:
     * Connect an Android device with USB Debugging enabled, or select an AVD (Android Virtual Device) from the device dropdown.
     * Click the "Run" button (green play icon) in the toolbar.
 
 ## 5. Screenshots
 
 **Main Screen:
+Screenshot_20250619_110139.png
 
+**Detailed View Screen:
+Screenshot_20250619_105827.png
 
-**Detailed View Screen:**
-
-
-
-
-
-**[Your GitHub Repository URL Here]**
-*(Replace `[Your GitHub Repository URL Here]` with the actual URL to your GitHub repository.)*
 
 ## 7. Error Handling and User Feedback
 
-* **Input Validation:** Checks are performed to ensure all mandatory input fields (Song Title, Artist Name, Rating) are not empty.
-* **Rating Validation:** The entered rating is validated to be a number between 1 and 5.
-* **Constructive Feedback:** If the rating input is invalid, an `AlertDialog` is displayed to inform the user about the error and ask if they wish to fix it, aligning with the prompt's requirement for constructive feedback.
-* **User Notifications:** `Toast` messages are used to confirm successful song additions and average rating calculations, or to prompt the user about missing input.
+*Input Validation: Checks are performed to ensure all mandatory input fields (Song Title, Artist Name, Rating) are not empty.
+*Rating Validation: The entered rating is validated to be a number between 1 and 5.
+*Constructive Feedback: If the rating input is invalid, an `AlertDialog` is displayed to inform the user about the error and ask if they wish to fix it, aligning with the prompt's requirement for constructive feedback.
+*User Notifications: `Toast` messages are used to confirm successful song additions and average rating calculations, or to prompt the user about missing input.
 
 ## 8. Known Issues / Future Enhancements
 
-* **Persistence:** Currently, all data is lost when the app is completely closed (process killed). Future enhancements would involve implementing persistent storage using Room database or SharedPreferences.
-* **Edit/Delete Songs:** Functionality to modify or remove existing songs from the playlist could be added.
-* **Sorting/Filtering:** Options to sort the playlist by title, artist, or rating, or to filter by artist.
-* **UI/UX Improvements:** Enhance the visual design and user experience, possibly using `RecyclerView` for a more efficient and customizable list display in the Detailed View.
-* **Artist Management:** A dedicated section for managing artists (adding new artists, viewing artist-specific playlists).
+*Persistence:* Currently, all data is lost when the app is completely closed (process killed). Future enhancements would involve implementing persistent storage using Room database or SharedPreferences.
+*Edit/Delete Songs:* Functionality to modify or remove existing songs from the playlist could be added.
+*Sorting/Filtering:* Options to sort the playlist by title, artist, or rating, or to filter by artist.
+*UI/UX Improvements:* Enhance the visual design and user experience, possibly using `RecyclerView` for a more efficient and customizable list display in the Detailed View.
+*Artist Management:* A dedicated section for managing artists (adding new artists, viewing artist-specific playlists).
 
 https://github.com/P6000/mymusic
