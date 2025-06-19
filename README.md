@@ -57,11 +57,11 @@ The application is built using **Kotlin** for Android development and leverages 
 ## 5. Screenshots
 
 **Main Screen:**
-![)
+20250619_110139.png
 *(Replace `path/to/your/main_screen_screenshot.png` with the actual path to your screenshot.)*
 
 **Detailed View Screen:**
-![Screenshot of Detailed View Screen](path/to/your/detailed_view_screen_screenshot.png)
+
 *(Replace `path/to/your/detailed_view_screen_screenshot.png` with the actual path to your screenshot.)*
 
 **Source Code Structure:**
