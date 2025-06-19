@@ -61,7 +61,7 @@ Screenshot_20250619_110139.png
 this sreenshot shows the primary entry piont of application. It features input fields for "Song Tittle, Artist Name, Rating(1-5) and Comment  Below input you can see the three main action buttons: Add to playlist,View playlist Details and exit app
 
 *Detailed View Screen:
-Screenshot_20250619_105827.png
+Screenshot_20250619_110209.png
 this screenshoots dispaly DetailedScreen. it represent a scrollable list of all song currently in the playlist, showing each song tittle, artist, and any assiciated comment.at the button there are buttons for Calculate Avarage Rating and Back to Main
 
 
